@@ -1,0 +1,32 @@
+{
+  "name": "Asp.netMVC_ReactJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config=Scripts/config/webpack.config.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agmghazi/Asp.netMVC_ReactJS.git"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agmghazi/Asp.netMVC_ReactJS/issues"
+  },
+  "homepage": "https://github.com/agmghazi/Asp.netMVC_ReactJS#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-react": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.1.0"
+  }
+}
